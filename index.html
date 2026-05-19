@@ -3,44 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rippla Studios - Cinematic Event Production for a Global Audience">
-    <title>Rippla Studios | Cinematic Event Production</title>
+    <meta name="description" content="Rippla Studios — Made to be there. Wherever you are. Cinematic event production for a global audience.">
+    <title>Rippla Studios | Made to Be There</title>
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Rippla" />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
+
+    <!-- Top navbar — hidden on mobile, visible at ≥768px -->
+    <!-- Update each social href when the accounts go live -->
+    <nav class="site-nav" aria-label="Site navigation">
+        <div class="container">
+            <div class="site-nav-inner">
+                <span class="site-nav-wordmark">Rippla Studios</span>
+                <div class="site-nav-socials">
+
+                    <a href="#" class="site-nav-social" aria-label="Rippla on Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                        </svg>
+                    </a>
+
+                    <a href="#" class="site-nav-social" aria-label="Rippla on Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                        </svg>
+                    </a>
+
+                    <a href="#" class="site-nav-social" aria-label="Rippla on TikTok">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.84 1.55V6.79a4.85 4.85 0 0 1-1.07-.1z"/>
+                        </svg>
+                    </a>
+
+                    <a href="#" class="site-nav-social" aria-label="Rippla on YouTube">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/>
+                            <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/>
+                        </svg>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <header class="hero" id="hero">
         <div class="container">
-            <h1 class="hero-headline">Cinematic Event Production for a Global Audience</h1>
-            <p class="hero-supporting">High-end live streaming, event production and bespoke content creation for music and entertainment. We turn live performances into immersive global experiences.</p>
-            <a href="#contact" class="cta-button">Partner With Us</a>
+
+            <!-- Floating brand identity -->
+            <div class="brand-header">
+                <img src="logo.png" alt="Rippla Studios" class="brand-logo-img">
+                <p class="brand-wordmark">Rippla Studios</p>
+            </div>
+            <hr class="hero-rule" aria-hidden="true">
+
+            <h1 class="hero-headline">MADE TO BE THERE.<br>WHEREVER YOU ARE</h1>
+            <div class="hero-copy">
+                <p>In a world where everything is available… very little feels shared. We watch and doom scroll alone, streaming and consuming moments… but always from a distance.</p>
+                <p>The experiences that stay with us are the ones we share together. The moments where strangers become one crowd in unison or where fans become a community.</p>
+                <p>Rippla exists to create moments that are made to be there. For us, it's where artists and audiences meet in the same moment, where cinema isn't just a screen, it's a gathering place and where viewers and fans don't just witness culture, they become part of it. Culture was never meant to be watched alone — you're meant to be there for it, wherever you are in the world.</p>
+            </div>
+
+            <!-- Video placeholder: replace this block with a <video> element or iframe embed when the film / trailer is ready -->
+            <div class="video-placeholder" role="img" aria-label="Film / trailer — coming soon">
+                <div class="video-placeholder-inner">
+                    <span class="video-play-icon" aria-hidden="true">&#9654;</span>
+                    <p class="video-placeholder-label">Film / trailer placeholder</p>
+                    <p class="video-placeholder-sub">Video coming soon</p>
+                </div>
+            </div>
+
+            <a href="mailto:info@ripplastudios.com" class="cta-button">Contact Us</a>
         </div>
     </header>
 
     <main>
-        <section class="services" id="services">
+
+        <!-- What We Do -->
+        <section class="what-we-do" id="what-we-do">
             <div class="container">
-                <h2 class="section-title">Services</h2>
-                <p class="service-description">We provide end-to-end production services that bridge the gap between the stage and the screen.</p>
-                <div class="services-grid">
-                    <article class="service-card">
-                        <h3 class="service-title">Live Stream Production</h3>
-                        <p class="service-description">High-definition, multi-camera live broadcasts that capture the raw energy of live music and stage entertainment and deliver it to fans anywhere in the world.</p>
+                <h2 class="section-title">What We Do</h2>
+                <div class="moment-grid">
+                    <article class="moment-card">
+                        <h3 class="moment-title">WE CREATE<br>THE MOMENT</h3>
+                        <p class="moment-description">Production teams around the globe, capturing moments from the most intimate gigs to global headliners.</p>
                     </article>
-                    <article class="service-card">
-                        <h3 class="service-title">Content Creation and Storytelling</h3>
-                        <p class="service-description">From behind-the-scenes documentaries to high-impact social content, we craft visual narratives that deepen audience connection and extend the life of every performance.</p>
+                    <article class="moment-card">
+                        <h3 class="moment-title">WE DISTRIBUTE<br>THE MOMENT</h3>
+                        <p class="moment-description">Theatrical distribution with the ability to release in cinemas worldwide as well as unique independent venues.</p>
                     </article>
-                    <article class="service-card">
-                        <h3 class="service-title">Brand and Artist Partnerships</h3>
-                        <p class="service-description">We create authentic partnerships between artists and brands, producing sponsored showcases that drive engagement, reach and measurable return.</p>
+                    <article class="moment-card">
+                        <h3 class="moment-title">WE SHARE<br>THE MOMENT</h3>
+                        <p class="moment-description">Our proprietary pay per view platform allows fans to participate and engage with their favourite artists in the moment.</p>
+                    </article>
+                    <article class="moment-card">
+                        <h3 class="moment-title">WE MANAGE<br>THE MOMENT</h3>
+                        <p class="moment-description">Full end-to-end creative management offering solutions across all aspects of the artist's campaign and full data driven reporting.</p>
                     </article>
                 </div>
             </div>
         </section>
 
+        <!-- Why Choose Us -->
         <section class="why-choose-us" id="why-choose-us">
             <div class="container">
                 <h2 class="section-title">Why Choose Us</h2>
@@ -61,56 +136,154 @@
             </div>
         </section>
 
-        <section class="about" id="about">
-            <div class="container">
-                <h2 class="section-title">About</h2>
-                <div class="about-content">
-                    <p class="about-text">Rippla Studios was born from a passion for live events and the belief that great performances deserve to live beyond the venue.</p>
-                    <p class="about-text">We provide an end-to-end solution for artists, labels and partners who want to extend their reach, preserve key moments and create meaningful digital experiences.</p>
-                    <p class="about-text">Every artist deserves a platform that reflects their talent, and every fan deserves a front-row seat, wherever they are.</p>
-                </div>
-            </div>
-        </section>
-
+        <!-- CTA -->
         <section class="cta-section" id="cta">
             <div class="container">
                 <h2 class="cta-headline">Let's Create Something Unforgettable</h2>
                 <p class="cta-supporting">Partner with Rippla Studios to bring your live performance to audiences around the world.</p>
-                <a href="#contact" class="cta-button">Partner With Us</a>
+                <a href="mailto:info@ripplastudios.com" class="cta-button">Contact Us</a>
             </div>
         </section>
 
-        <section class="contact" id="contact">
+        <!-- Sign Up for Updates -->
+        <section class="signup" id="signup">
             <div class="container">
-                <h2 class="section-title">Contact</h2>
-                <div class="contact-content">
-                    <div class="contact-methods">
-                        <div class="contact-item">
-                            <h3 class="contact-label">Email</h3>
-                            <a href="mailto:hello@ripplastudios.com" class="contact-link">hello@ripplastudios.com</a>
+                <h2 class="section-title">Sign Up for Updates</h2>
+                <p class="signup-intro">Stay in the loop with Rippla. Be the first to hear about new releases, events and experiences.</p>
+                <!--
+                    TODO: Wire up this form to your submission handler.
+                    Options include Mailchimp, ConvertKit, Netlify Forms, Formspree, or a custom endpoint.
+                    Replace action="#" with the provider URL and add any required hidden fields.
+                -->
+                <form class="signup-form" action="#" method="post" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="first-name">
+                                First Name
+                                <span class="required" aria-hidden="true">*</span>
+                                <span class="sr-only">(required)</span>
+                            </label>
+                            <input
+                                type="text"
+                                id="first-name"
+                                name="first_name"
+                                autocomplete="given-name"
+                                required
+                                placeholder="First name"
+                            >
                         </div>
-                        <div class="contact-item">
-                            <h3 class="contact-label">Phone</h3>
-                            <a href="tel:+1234567890" class="contact-link">+1 (234) 567-890</a>
+                        <div class="form-group">
+                            <label for="last-name">
+                                Last Name
+                                <span class="required" aria-hidden="true">*</span>
+                                <span class="sr-only">(required)</span>
+                            </label>
+                            <input
+                                type="text"
+                                id="last-name"
+                                name="last_name"
+                                autocomplete="family-name"
+                                required
+                                placeholder="Last name"
+                            >
                         </div>
                     </div>
-                    <div class="social-links">
-                        <h3 class="contact-label">Follow Us</h3>
-                        <nav class="social-nav" aria-label="Social media links">
-                            <a href="#" class="social-link" aria-label="Instagram">Instagram</a>
-                            <a href="#" class="social-link" aria-label="Twitter">Twitter</a>
-                            <a href="#" class="social-link" aria-label="LinkedIn">LinkedIn</a>
-                            <a href="#" class="social-link" aria-label="YouTube">YouTube</a>
-                        </nav>
+                    <div class="form-group">
+                        <label for="email">
+                            Email Address
+                            <span class="required" aria-hidden="true">*</span>
+                            <span class="sr-only">(required)</span>
+                        </label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            autocomplete="email"
+                            required
+                            placeholder="you@example.com"
+                        >
                     </div>
-                </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="country">Country</label>
+                            <input
+                                type="text"
+                                id="country"
+                                name="country"
+                                autocomplete="country-name"
+                                placeholder="Your country"
+                            >
+                        </div>
+                        <div class="form-group">
+                            <label for="city">City</label>
+                            <input
+                                type="text"
+                                id="city"
+                                name="city"
+                                autocomplete="address-level2"
+                                placeholder="Your city"
+                            >
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="age-range">Age Range</label>
+                        <select id="age-range" name="age_range">
+                            <option value="">Select your age range</option>
+                            <option value="under-18">Under 18</option>
+                            <option value="18-24">18–24</option>
+                            <option value="25-34">25–34</option>
+                            <option value="35-44">35–44</option>
+                            <option value="45-54">45–54</option>
+                            <option value="55-64">55–64</option>
+                            <option value="65+">65+</option>
+                        </select>
+                    </div>
+                    <div class="form-footer">
+                        <p class="form-required-note"><span aria-hidden="true">*</span> Required fields</p>
+                        <button type="submit" class="cta-button">Sign Me Up</button>
+                    </div>
+                </form>
             </div>
         </section>
+
     </main>
 
     <footer class="footer">
         <div class="container">
-            <p class="footer-text">&copy; 2026 Rippla Studios. All rights reserved.</p>
+            <div class="footer-inner">
+                <!-- Update hrefs when social accounts go live -->
+                <nav class="footer-social" aria-label="Social media links">
+
+                    <a href="#" class="footer-social-link" aria-label="Rippla on Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                        </svg>
+                    </a>
+
+                    <a href="#" class="footer-social-link" aria-label="Rippla on Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                        </svg>
+                    </a>
+
+                    <a href="#" class="footer-social-link" aria-label="Rippla on TikTok">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.84 1.55V6.79a4.85 4.85 0 0 1-1.07-.1z"/>
+                        </svg>
+                    </a>
+
+                    <a href="#" class="footer-social-link" aria-label="Rippla on YouTube">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/>
+                            <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/>
+                        </svg>
+                    </a>
+
+                </nav>
+                <p class="footer-text">&copy; 2026 Rippla Studios. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 
